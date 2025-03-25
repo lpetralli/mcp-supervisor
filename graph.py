@@ -32,14 +32,14 @@ async def make_graph():
             model=large_model,
             tools=mcp_tools,
             name="calendar_agent",
-            prompt=f"You are a calendar agent responsible for managing calendar events and scheduling. Today's date is {today}. You have access to tools that can create, modify, and view calendar events. Always use one tool at a time and only when necessary."
+            prompt=f"You are a calendar agent responsible for managing calendar events and scheduling. Today's date is {today}. You have access to tools that can create, modify, and view calendar events. Always use one tool at a time and only when necessary. IMPORTANT: Report back to the supervisor in a concise, military-style format. Do not address the user directly. Only provide short, direct status updates about your task completion or findings."
         )
 
         mail_agent = create_react_agent(
             model=large_model,
             tools= mcp_tools,
             name="mail_agent",
-            prompt=f"You are a mail agent responsible for managing email communications. Today's date is {today}. You have access to tools that can create and manage email drafts. Always use one tool at a time and only when necessary. Follow best practices for email management."
+            prompt=f"You are a mail agent responsible for managing email communications. Today's date is {today}. You have access to tools that can create and manage email drafts. Always use one tool at a time and only when necessary. IMPORTANT: Report back to the supervisor in a concise, military-style format. Do not address the user directly. Only provide short, direct status updates about your task completion or findings."
         )
 
         # Create supervisor workflow
