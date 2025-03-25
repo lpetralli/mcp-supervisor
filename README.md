@@ -13,15 +13,14 @@ A repository that demonstrates how to integrate MCP servers within LangGraph app
 This project showcases a nearly no-code approach to building AI assistants. 
 
 - Create a supervisor-based multi-agent system with just a few lines of code
-- Connect to external services like Zapier MCP (no-code MCP Server management) by just including the URL provided for you AI Actions - https://zapier.com/mcp
+- Connect to external services like Zapier MCP (no-code MCP Server management) - https://zapier.com/mcp
 
 
 ![MCP Server Management](imgs/zapier-mcp.png)
+*Simply include your Zapier MCP server URL in your environment variables, and all these tools become instantly available to your agents*
 
-Simply include your Zapier MCP server URL in your environment variables, and all these tools become instantly available to your agents
 
-
-The repository is designed for immediate deployment to *LangGraph Cloud* using the [LangGraph Cloud Quick Start guide](https://langchain-ai.github.io/langgraph/cloud/quick_start/). When deployed to *LangGraph Cloud*, you automatically get *LangSmith* tracing for comprehensive monitoring and debugging. During development, LangGraph Studio provides a no-code environment for testing and debugging your application. 
+The repository is designed for immediate deployment to *LangGraph Cloud* using the [LangGraph Cloud Quick Start guide](https://langchain-ai.github.io/langgraph/cloud/quick_start/). When deployed to *LangGraph Cloud*, you automatically get *LangSmith* tracing for comprehensive monitoring and debugging. During development, *LangGraph Studio* provides a no-code environment for testing and debugging your application. 
 
 For a quick and easy user interface, simply connect your application to [Agent Chat UI](https://github.com/langchain-ai/agent-chat-ui) - a pre-built, customizable UI designed specifically for LangGraph applications. This approach eliminates the need to build a frontend from scratch, allowing you to focus on your assistant's capabilities rather than implementation details.
 
@@ -29,8 +28,6 @@ For a quick and easy user interface, simply connect your application to [Agent C
 This project leverages the complete LangChain stack for an end-to-end AI application:
 
 ![LangChain Stack](imgs/langchain-stack.png)
-
-The architecture combines LangGraph for agent orchestration, LangChain for core components, LangSmith for observability, and LangServe for deployment - all working together to create a powerful, production-ready AI assistant.
 
 
 ## Getting Started
