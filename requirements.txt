@@ -1,0 +1,6 @@
+langchain-core
+langchain-openai
+langgraph
+langgraph-sdk
+langgraph-supervisor
+langchain-mcp-adapters
