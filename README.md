@@ -39,7 +39,7 @@ This project leverages the complete LangChain stack for an end-to-end AI applica
    ```
 
 2. Choose your LLM, agent architecture, and prompts
-   - Modify `graph.py` to select your preferred LLM (default is GPT-4o)
+   - Modify `graph.py` to select your preferred LLM 
    - Customize agent prompts and roles based on your use case
    - Define your tools:
      - Use existing MCP servers (like Zapier)
