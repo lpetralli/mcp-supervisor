@@ -1,6 +1,7 @@
 langchain-core
 langchain-openai
-langgraph
+langgraph-cli
 langgraph-sdk
 langgraph-supervisor
 langchain-mcp-adapters
+langgraph-api
